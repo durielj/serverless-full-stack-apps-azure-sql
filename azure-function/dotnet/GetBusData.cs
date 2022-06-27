@@ -17,6 +17,7 @@ namespace GetBusData
         {            
             var m = new BusDataManager(log);
             await m.ProcessBusData();
+            //Activate the Azure Function
         }
 
     }
